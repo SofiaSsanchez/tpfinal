@@ -120,6 +120,37 @@ nav a:hover {
   background-color: #d67dda;
 }
 
+.etapa-programa {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  color: var(--color-texto);
+}
+
+.inscripcion-programas{
+  padding-top: 60px;
+}
+
+.inscripcion-programas p {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.btn.btn-primary {
+  background-color: var(--color-primario);
+  color: var(--color-texto-secundario);
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.btn.btn-primary:hover {
+  background-color: #bacde1;
+  color: #031d36;
+  transition: background-color 0.5s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.454);
+}
+
 /* === Sección Novedades === */
 main {
   min-height: 80vh;
